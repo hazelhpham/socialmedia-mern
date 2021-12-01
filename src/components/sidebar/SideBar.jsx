@@ -6,6 +6,7 @@ import {
   BookmarkIcon,
   Mail,
   Camera,
+  Calender,
 } from "@material-ui/icons";
 import { User } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";

@@ -25,12 +25,84 @@ const RightBar = ({ profile }) => {
     );
   };
   const ProfileRightBar = () => {
-    return <h1>hey its profile!</h1>;
+    return (
+      <>
+        <h4 className="rightbarTitle">User Information</h4>
+        <div className="rightbarInfo">
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">City:</span>
+            <span className="rightbarInfoValue">New York </span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">From:</span>
+            <span className="rightbarInfoValue">Hanoi, Vietnam </span>
+          </div>
+          <div className="rightbarInfoItem">
+            <span className="rightbarInfoKey">Relationship:</span>
+            <span className="rightbarInfoValue">Single </span>
+          </div>
+          <h4 className="rightbarTitle"> User friends</h4>
+          <div className="rightbarFollowings">
+            <div className="rightbarFollowing">
+              <img
+                src="assets/1.jpeg"
+                alt=""
+                className="rightbarFollowingImg"
+              />
+              <span className="rightbarFollowingName">Miu </span>
+            </div>
+            <div className="rightbarFollowing">
+              <img
+                src="assets/1.jpeg"
+                alt=""
+                className="rightbarFollowingImg"
+              />
+              <span className="rightbarFollowingName">Miu </span>
+            </div>
+            <div className="rightbarFollowing">
+              <img
+                src="assets/1.jpeg"
+                alt=""
+                className="rightbarFollowingImg"
+              />
+              <span className="rightbarFollowingName">Miu </span>
+            </div>
+            <div className="rightbarFollowing">
+              <img
+                src="assets/1.jpeg"
+                alt=""
+                className="rightbarFollowingImg"
+              />
+              <span className="rightbarFollowingName">Miu </span>
+            </div>
+            <div className="rightbarFollowing">
+              <img
+                src="assets/1.jpeg"
+                alt=""
+                className="rightbarFollowingImg"
+              />
+              <span className="rightbarFollowingName">Miu </span>
+            </div>
+            <div className="rightbarFollowing">
+              <img
+                src="assets/1.jpeg"
+                alt=""
+                className="rightbarFollowingImg"
+              />
+              <span className="rightbarFollowingName">Miu </span>
+            </div>
+          </div>
+        </div>
+      </>
+    );
   };
-
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
+        <ProfileRightBar />
+        <HomeRightBar />
+        {profile ? <ProfileRightBar /> : <HomeRightBar />}
+
         {/* show birthdays of accounts        */}
         {/* <div className="birthdayContainer">
           <img className="birthdayImg" src="./assets/gift.png" alt="birthday" />

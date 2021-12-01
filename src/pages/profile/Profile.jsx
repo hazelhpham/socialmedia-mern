@@ -22,7 +22,7 @@ const Profile = () => {
             </div>
             <div className="profileInfo">
               <h4 className="profileInfoName">Hazel Huong Pham</h4>
-              <span className="profileInfoDesc">Hello Viee Social Medias!</span>
+              <span className="profileInfoDesc">Welcome to my world! </span>
             </div>
           </div>
           <div className="profileRightBottom">
