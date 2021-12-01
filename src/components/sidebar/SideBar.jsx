@@ -3,10 +3,13 @@ import "./sidebar.css";
 import {
   RssFeed,
   School,
-  BookmarkIcon,
+  Group,
+  Bookmark,
+  HelpOutline,
   Mail,
+  WorkOutline,
   Camera,
-  Calender,
+  Event,
 } from "@material-ui/icons";
 import { User } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
@@ -29,23 +32,23 @@ const SideBar = () => {
             <span className="sideBarListItemText"> Videos </span>
           </li>
           <li className="sidebarListItem">
-            <RssFeed className="sidebarIcon" />
+            <Group className="sidebarIcon" />
             <span className="sideBarListItemText"> Groups </span>
           </li>
           <li className="sidebarListItem">
-            <RssFeed className="sidebarIcon" />
+            <Bookmark className="sidebarIcon" />
             <span className="sideBarListItemText"> Bookmarks </span>
           </li>
           <li className="sidebarListItem">
-            <Mail className="sidebarIcon" />
+            <HelpOutline className="sidebarIcon" />
             <span className="sideBarListItemText"> Questions </span>
           </li>
           <li className="sidebarListItem">
-            <RssFeed className="sidebarIcon" />
+            <WorkOutline className="sidebarIcon" />
             <span className="sideBarListItemText"> Jobs </span>
           </li>
           <li className="sidebarListItem">
-            <RssFeed className="sidebarIcon" />
+            <Event className="sidebarIcon" />
             <span className="sideBarListItemText"> Events </span>
           </li>
           <li className="sidebarListItem">

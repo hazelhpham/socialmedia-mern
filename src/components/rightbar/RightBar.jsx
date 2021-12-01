@@ -99,8 +99,9 @@ const RightBar = ({ profile }) => {
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        <ProfileRightBar />
-        <HomeRightBar />
+        {/* <ProfileRightBar />
+        <HomeRightBar /> */}
+
         {profile ? <ProfileRightBar /> : <HomeRightBar />}
 
         {/* show birthdays of accounts        */}

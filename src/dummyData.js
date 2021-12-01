@@ -26,7 +26,39 @@ export const User = [
     username: "Linh Pham",
   },
   {
-    id: 5,
+    id: 6,
+    profilePicture:
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fiso.500px.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fsleeping_cover-1500x1000.jpeg&f=1&nofb=1",
+    username: "Hazel Pham",
+  },
+  {
+    id: 11,
+    profilePicture: "assets/1.jpeg",
+    username: "Caitlyn Toan",
+  },
+  {
+    id: 12,
+    profilePicture: "assets/2.jpeg",
+    username: "Mai Trinh",
+  },
+  {
+    id: 7,
+    profilePicture: "assets/3.jpeg",
+    username: "Sammy Nguyen",
+  },
+  {
+    id: 8,
+    profilePicture:
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fusercontent.one%2Fwp%2Fwww.techregister.co.uk%2Fwp-content%2Fuploads%2F2021%2F11%2FVirgil-Abloh-death-Music-world-pays-tribute-after-Off-White-creator.jpg&f=1&nofb=1",
+    username: "Vigil Ablo",
+  },
+  {
+    id: 9,
+    profilePicture: "assets/5.jpeg",
+    username: "Linh Pham",
+  },
+  {
+    id: 10,
     profilePicture:
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fiso.500px.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fsleeping_cover-1500x1000.jpeg&f=1&nofb=1",
     username: "Hazel Pham",

@@ -7,7 +7,7 @@ const TopBar = () => {
     <div>
       <div className="topBarContainer">
         <div className="topBarLeft">
-          <span className="topBarLogo"> VieeSocial </span>
+          <span className="topBarLogo"> Viee Social </span>
         </div>
         <div className="topBarCenter">
           <div className="searchBar">
@@ -27,15 +27,15 @@ const TopBar = () => {
           <div className="topBarIcons">
             <div className="topBarIconsItem">
               <Person />
-              <span className="topBarIconBadge"> 1</span>
+              <span className="topBarIconBadge"> 1 </span>
             </div>
             <div className="topBarIconsItem">
               <Chat />
-              <span className="topBarIconBadge"> 2</span>
+              <span className="topBarIconBadge"> 2 </span>
             </div>
             <div className="topBarIconsItem">
               <Notifications />
-              <span className="topBarIconBadge"> 1</span>
+              <span className="topBarIconBadge"> 3 </span>
             </div>
           </div>
           <img src="./assets/1.jpeg" alt="profile_pic" className="topBarImg" />
